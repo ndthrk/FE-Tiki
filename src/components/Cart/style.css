@@ -1,0 +1,19 @@
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+@media (max-width: 575px) {
+    .cart-icon {
+        filter: brightness(0) invert(1);
+    }
+}
+.cart-icon:hover{
+    background-color: rgb(186, 215, 249);
+}
+

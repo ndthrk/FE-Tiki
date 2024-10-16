@@ -1,0 +1,17 @@
+
+.cart{
+    min-width: 60px;
+    border-left: 3px solid #d1d5db;    
+}
+
+.filter span {
+    padding-right: 10px;
+    border-right: 2px solid #d1d5db;
+}
+hr{
+    margin: auto;
+    max-width: 95%;
+}
+.home:hover{
+    background-color: gainsboro;
+}

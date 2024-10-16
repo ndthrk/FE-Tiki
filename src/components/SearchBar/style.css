@@ -1,0 +1,54 @@
+.form{
+    position: relative;
+}
+
+.icon-search{
+    position: absolute;
+}
+
+.form span{
+
+    position: absolute;
+    right: 18px;
+    top: 6px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+.form-input{
+
+    height: 50px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+
+}
+.suggestions-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.suggestion-item {
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+.search-bar .form {
+    position: relative;
+}
+
+.search-bar .form .form-input {
+    width: 100%;
+}
